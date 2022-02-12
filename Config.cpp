@@ -31,3 +31,27 @@ void basicDemo() {
 	cout << p[0] << endl;
 	cout << p[1] << endl;
 }
+
+int ConsoleAppDemo()
+{
+	while (true)
+	{
+		int n;
+		cout << "1. input your select  0 exit" << endl;
+		cout << "2. input your select  others continue" << endl;
+		cin >> n;
+
+		switch (n)
+		{
+		case 0:
+			cout << "bye bye" << endl;
+			return 0;
+		case 1:
+			cout << "continue" << endl;
+			break;
+		default:
+			break;
+		}
+
+	}
+}

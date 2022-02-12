@@ -1,12 +1,12 @@
 #include "Config.h"
 
 
-
 int main() {
 
-	structDemo();
-
+	ConsoleAppDemo();
 }
+
+
 
 
 

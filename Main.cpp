@@ -33,6 +33,11 @@ void basicDemo() {
 
 int main() {
 
+	string s[] = { "hello","world" };
+	cout << s<<endl;
+	string* p = s;
+	p++;
+	cout << *p << endl;
 
 }
 

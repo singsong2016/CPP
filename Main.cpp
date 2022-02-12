@@ -1,5 +1,4 @@
 #include "Config.h"
-void demo();
 
 #pragma region demos
 struct student
@@ -20,15 +19,7 @@ void structDemo() {
 	cout << t.stu.Name << endl;
 }
 
-#pragma endregion
-
-
-int main() {
-
-
-}
-
-void demo() {
+void basicDemo() {
 	int a[] = { 1,2,3,4,5 };
 	int* p = a;
 	cout << *p << endl;
@@ -37,6 +28,15 @@ void demo() {
 	cout << p[0] << endl;
 	cout << p[1] << endl;
 }
+#pragma endregion
+
+
+int main() {
+
+
+}
+
+
 
 
 
